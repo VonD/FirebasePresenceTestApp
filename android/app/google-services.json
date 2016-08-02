@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "303420153696",
+    "firebase_url": "https://p-playground.firebaseio.com",
+    "project_id": "p-playground",
+    "storage_bucket": "p-playground.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:303420153696:android:0044fef56cc34dbb",
+        "android_client_info": {
+          "package_name": "com.firebasepresencetestapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "303420153696-hooe1h8b524e7kp34dghiatqhi1gujv3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7QWuE9rkRjCb0PaM7eRlRNwTwtnrWHpg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
