@@ -1,9 +1,3 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- * @flow
- */
-
 import React, { Component } from 'react';
 import {
   AppRegistry,
@@ -11,8 +5,15 @@ import {
   Text,
   View
 } from 'react-native';
+import { NativeModules } from 'react-native';
+
+const PresenceTest = NativeModules.PresenceTest;
 
 class FirebasePresenceTestApp extends Component {
+  componentDidMount() {
+    PresenceTest.monitorPresence();
+    PresenceTest.monitorData();
+  }
   render() {
     return (
       <View style={styles.container}>
